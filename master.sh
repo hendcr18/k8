@@ -50,9 +50,3 @@ systemctl restart kubelet
 
 
 sudo kubeadm init --pod-network-cidr=192.168.0.0/16
-
-exit
-
-kubectl create -f https://docs.projectcalico.org/manifests/tigera-operator.yaml
-
-kubectl create -f https://docs.projectcalico.org/manifests/custom-resources.yaml
