@@ -1,5 +1,7 @@
 # k8
 
+#YOU NEED TO DISABLE SWAP BEFORE DOING ANYTHING
+
 #Run the master.sh on your master node and the worker.sh on your worker nodes
 
 #After you run the master.sh script, ensure you run the three commands you see on the CLI as a normal user, not as root.
