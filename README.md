@@ -23,7 +23,7 @@ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
-#You need to initialize the kubeadm cluster and in doing so will need to use the right subnet for Calico. 
+#The script will run the following command to initialize the cluster, don't change the subnet.
 
 sudo kubeadm init --pod-network-cidr=192.168.0.0/16
 
