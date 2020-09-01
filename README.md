@@ -2,11 +2,15 @@
 
 # YOU NEED TO DISABLE SWAP BEFORE DOING ANYTHING
 #if you're running Ubuntu, you can do one of the following:
+
 #this command will need to be run as root and then reboot
+
 swapoff -a
 
 #secondly, you can do the following:
+
 sudo vim /etc/fstab
+
 #comment out the second line and then reboot
 
 #Run the master.sh on your master node and the worker.sh on your worker nodes
