@@ -27,6 +27,8 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 sudo kubeadm init --pod-network-cidr=192.168.0.0/16
 
+#you'll need to join your worker nodes by using the kubeadm join command provided. Copy and paste that command into the worker nodes
+
 #Finally, run the last two commands here to install Calico:
 
 kubectl create -f https://docs.projectcalico.org/manifests/tigera-operator.yaml
